@@ -2,50 +2,47 @@
 }
 
 body{
-    background-color: rgb(225, 221, 247); 
-    text-align: center;
-    
-}
-
-
-h3{
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h1{
-
+  background-color: rgb(225, 221, 247);
 }
 
 .wrapper{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-areas:  
-    'header'
-    'mainos'
-    'main'
-    'footer';
-    width: 900px;
-    text-align: center;
-    padding: 0 30px;
-    margin: 0;
-    justify-self: center;
+  display: grid;
+  grid-template-columns: 700px;
+  grid-template-areas:
+  'header'
+  'mkuva1'
+  'mainos'
+  'main'
+  'footer';
+  width: 700px;
+  text-align: center;
 }
 
-.main{
-    display: grid;
-    grid-template-columns: 450px 450px;
-    grid-template-areas: 
-    'vasen oikea';
-    margin:0 50px
+h3{
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .mkuva1{
-    background-color: #216158;
-    height: 300px;
-    width: 900px;
-    justify-self: center;
+  background-color: #216158;
+  height: 300px;
+  width: 600px;
+  justify-self: center;
 }
+
+.main{
+  display: grid;
+  grid-template-areas: 
+  'vasen oikea';
+  text-align: center;
+}
+.vasen{
+  padding: 20px;
+}
+.oikea{
+  padding: 20px;
+}
+
 
 /* Varaa täst nappula*/
 
